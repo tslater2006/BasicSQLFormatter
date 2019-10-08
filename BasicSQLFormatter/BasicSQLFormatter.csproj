@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>tslater2006</Authors>
+    <Description>Basic SQL Formatter for .NET based on Hibernate BasicFormatterImpl</Description>
+    <Copyright>2019</Copyright>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/tslater2006/BasicSQLFormatter</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>basic sql format</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>tslater2006</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
